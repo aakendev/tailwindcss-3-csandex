@@ -5,7 +5,7 @@ const Examples = ({ exCode, exProp, exHTML }) => {
     <div className="mb-5">
       <p className="mb-1">{exCode}</p>
       <p className="bg-black text-white rounded-sm p-1 mb-1 max-w-fit">
-        <code>{exProp}</code>
+        <code>Properties: {exProp}</code>
       </p>
       {exHTML}
     </div>
