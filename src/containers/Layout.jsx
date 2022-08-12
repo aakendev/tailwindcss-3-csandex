@@ -14,6 +14,8 @@ import Isolation from "./Layout/Isolation";
 import ObjectFit from "./Layout/ObjectFit";
 import ObjectPosition from "./Layout/ObjectPosition";
 import Overflow from "./Layout/Overflow";
+import OverscrollBehavior from "./Layout/OverscrollBehavior";
+import Position from "./Layout/Position";
 
 const Layout = () => {
   return (
@@ -33,6 +35,8 @@ const Layout = () => {
       <ObjectFit />
       <ObjectPosition />
       <Overflow />
+      <OverscrollBehavior />
+      <Position />
     </div>
   );
 };
