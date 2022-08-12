@@ -16,6 +16,7 @@ import ObjectPosition from "./Layout/ObjectPosition";
 import Overflow from "./Layout/Overflow";
 import OverscrollBehavior from "./Layout/OverscrollBehavior";
 import Position from "./Layout/Position";
+import TopRightBottomLeft from "./Layout/TopRightBottomLeft";
 
 const Layout = () => {
   return (
@@ -37,6 +38,7 @@ const Layout = () => {
       <Overflow />
       <OverscrollBehavior />
       <Position />
+      <TopRightBottomLeft />
     </div>
   );
 };
