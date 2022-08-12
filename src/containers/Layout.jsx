@@ -5,8 +5,15 @@ import BoxSizing from "./Layout/BoxSizing";
 import BreakAfter from "./Layout/BreakAfter";
 import BreakBefore from "./Layout/BreakBefore";
 import BreakInside from "./Layout/BreakInside";
+import Clear from "./Layout/Clear";
 import Columns from "./Layout/Columns";
 import Container from "./Layout/Container";
+import Display from "./Layout/Display";
+import Floats from "./Layout/Floats";
+import Isolation from "./Layout/Isolation";
+import ObjectFit from "./Layout/ObjectFit";
+import ObjectPosition from "./Layout/ObjectPosition";
+import Overflow from "./Layout/Overflow";
 
 const Layout = () => {
   return (
@@ -19,6 +26,13 @@ const Layout = () => {
       <BreakInside />
       <BoxDecorationBreak />
       <BoxSizing />
+      <Display />
+      <Floats />
+      <Clear />
+      <Isolation />
+      <ObjectFit />
+      <ObjectPosition />
+      <Overflow />
     </div>
   );
 };
