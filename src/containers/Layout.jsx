@@ -17,6 +17,8 @@ import Overflow from "./Layout/Overflow";
 import OverscrollBehavior from "./Layout/OverscrollBehavior";
 import Position from "./Layout/Position";
 import TopRightBottomLeft from "./Layout/TopRightBottomLeft";
+import Visibility from "./Layout/Visibility";
+import ZIndex from "./Layout/ZIndex";
 
 const Layout = () => {
   return (
@@ -39,6 +41,8 @@ const Layout = () => {
       <OverscrollBehavior />
       <Position />
       <TopRightBottomLeft />
+      <Visibility />
+      <ZIndex />
     </div>
   );
 };

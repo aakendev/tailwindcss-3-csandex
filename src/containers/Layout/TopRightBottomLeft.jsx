@@ -265,7 +265,7 @@ const TopRightBottomLeft = () => {
             exCode: "right-0.5",
             exProp: "right: 2px;",
             exHTML: (
-              <div className="relative w-32 h-32 border-2 border-slate-400">
+              <div className="relative w-32 h-32 border-2 border-slate-400 mb-12">
                 <div className="relative bg-red-600 flex items-center justify-center w-full h-full text-white">
                   Base
                 </div>
@@ -363,7 +363,7 @@ const TopRightBottomLeft = () => {
             exCode: "right-1",
             exProp: "right: 4px;",
             exHTML: (
-              <div className="relative w-32 h-32 border-2 border-slate-400">
+              <div className="relative w-32 h-32 border-2 border-slate-400 mb-12">
                 <div className="relative bg-red-600 flex items-center justify-center w-full h-full text-white">
                   Base
                 </div>
@@ -559,7 +559,7 @@ const TopRightBottomLeft = () => {
             exCode: "right-96",
             exProp: "right: 384px;",
             exHTML: (
-              <div className="relative w-96 h-96 border-2 border-slate-400">
+              <div className="relative w-96 h-96 border-2 border-slate-400 ml-12 mb-12">
                 <div className="relative bg-red-600 flex items-center justify-center w-full h-full text-white">
                   Base
                 </div>
@@ -573,7 +573,7 @@ const TopRightBottomLeft = () => {
             exCode: "bottom-96",
             exProp: "bottom: 384px;",
             exHTML: (
-              <div className="relative w-96 h-96 border-2 border-slate-400">
+              <div className="relative w-96 h-96 border-2 border-slate-400 mt-12">
                 <div className="relative bg-red-600 flex items-center justify-center w-full h-full text-white">
                   Base
                 </div>
@@ -755,7 +755,7 @@ const TopRightBottomLeft = () => {
             exCode: "right-full",
             exProp: "right: 100%;",
             exHTML: (
-              <div className="relative w-48 h-48 border-2 border-slate-400 mb-12">
+              <div className="relative w-48 h-48 border-2 border-slate-400 ml-12 mb-12">
                 <div className="relative bg-red-600 flex items-center justify-center w-full h-full text-white">
                   Base
                 </div>
@@ -769,7 +769,7 @@ const TopRightBottomLeft = () => {
             exCode: "bottom-full",
             exProp: "bottom: 100%;",
             exHTML: (
-              <div className="relative w-48 h-48 border-2 border-slate-400 mb-12">
+              <div className="relative w-48 h-48 border-2 border-slate-400 mt-12">
                 <div className="relative bg-red-600 flex items-center justify-center w-full h-full text-white">
                   Base
                 </div>
