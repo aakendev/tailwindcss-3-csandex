@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import FlexboxAndGrid from "./containers/FlexboxAndGrid";
 import Layout from "./containers/Layout";
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <>
       <Layout />
+      <FlexboxAndGrid />
     </>
   );
 };
